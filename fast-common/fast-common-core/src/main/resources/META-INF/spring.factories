@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.fast.common.core.config.JacksonConfiguration,\
+  com.fast.common.core.config.RedisTemplateConfiguration,\
+  com.fast.common.core.config.RestTemplateConfiguration,\
+  com.fast.common.core.util.SpringContextHolder,\
+  com.fast.common.core.config.WebMvcConfiguration

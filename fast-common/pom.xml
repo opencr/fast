@@ -2,11 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.fast</groupId>
+        <artifactId>fast-dependencies-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.fast</groupId>
     <artifactId>fast-common</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
+    <description>fast 公共聚合模块</description>
+
+    <modules>
+        <module>fast-common-swagger</module>
+        <module>fast-common-log</module>
+        <module>fast-common-core</module>
+        <module>fast-common-security</module>
+        <module>fast-common-mybatis</module>
+        <module>fast-common-sentinel</module>
+        <module>fast-common-test</module>
+        <module>fast-common-datasource</module>
+        <module>fast-common-job</module>
+    </modules>
 
 </project>

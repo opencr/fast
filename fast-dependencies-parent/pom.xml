@@ -7,6 +7,7 @@
     <groupId>com.fast</groupId>
     <artifactId>fast-dependencies-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <licenses>
         <license>
@@ -41,7 +42,7 @@
         <hutool.version>5.5.1</hutool.version>
         <mybatis-plus.version>3.4.1</mybatis-plus.version>
         <dynamic-ds.version>3.2.0</dynamic-ds.version>
-        <captcha.version>2.2.0</captcha.version>
+        <captcha.version>1.0-SNAPSHOT</captcha.version>
         <velocity.version>1.7</velocity.version>
         <jasypt.version>2.1.0</jasypt.version>
         <swagger.fox.version>3.0.0</swagger.fox.version>
@@ -50,6 +51,8 @@
         <fastjson.version>1.2.74</fastjson.version>
         <security.oauth.version>2.3.6.RELEASE</security.oauth.version>
         <spring-boot-maven-plugin.version>2.3.7.RELEASE</spring-boot-maven-plugin.version>
+        <feign.hystrix.version>10.10.1</feign.hystrix.version>
+        <security.version>2.2.4.RELEASE</security.version>
     </properties>
 
     <dependencies>
@@ -124,9 +127,6 @@
             <version>${swagger.core.version}</version>
         </dependency>
     </dependencies>
-
-    <modules>
-    </modules>
 
     <dependencyManagement>
         <dependencies>
