@@ -48,7 +48,7 @@
         <swagger.fox.version>3.0.0</swagger.fox.version>
         <swagger.core.version>1.5.24</swagger.core.version>
         <xxl-job.version>2.2.0</xxl-job.version>
-        <fastjson.version>1.2.74</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <security.oauth.version>2.3.6.RELEASE</security.oauth.version>
         <spring-boot-maven-plugin.version>2.3.7.RELEASE</spring-boot-maven-plugin.version>
         <feign.hystrix.version>10.10.1</feign.hystrix.version>
